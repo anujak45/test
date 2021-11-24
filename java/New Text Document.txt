@@ -1,0 +1,27 @@
+import calcy.*;
+import java.io.*;
+class User
+{
+	public static void main(String[] z1)throws IOException
+	{
+		do
+		{
+			System.out.println("Select Method from Below :");
+			System.out.println("/n 1. Addition /n 2. /n 3. /n 4. /n");
+			switch()
+			{
+				case 1:
+					System.out.println(" This is Addition Method : ");
+					Add a1=new Add();
+					a1.plus();
+					break;
+				case 2:
+					break;
+				case 3:
+					break;
+				case 4:
+					break;
+			}
+		}
+	}		
+}
